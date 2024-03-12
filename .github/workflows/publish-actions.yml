@@ -26,6 +26,12 @@ jobs:
             tag: 18-alpine
           - dockerfile: ./18/bullseye
             tag: 18
+          - dockerfile: ./20/alpine
+            tag: 20-alpine
+          - dockerfile: ./20/bullseye
+            tag: 20-bullseye
+          - dockerfile: ./20/bookworm
+            tag: 20
 
     steps:
       - name: Checkout repository
